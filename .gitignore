@@ -1,0 +1,33 @@
+# Secrets — never commit
+.env
+*.env
+.envrc
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Raw corpus (private partner data — must not be published)
+data/meme_usages*.csv
+data/*.csv
+data/*.xlsx
+data/*.parquet
+
+# Dev / scratch artifacts
+smoke_test*.json
+*_local.json
+scratch/
