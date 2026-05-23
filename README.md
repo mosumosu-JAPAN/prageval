@@ -6,7 +6,7 @@ A lightweight evaluation harness for community-conditioned pragmatic failures in
 
 ## What this is
 
-PragEval measures how frontier LLMs flatten community-coded Chinese expressions when prompted in production-style advisory queries. Built as a portfolio piece for the ByteDance Seed AI Data & Safety PM interview.
+PragEval measures how frontier LLMs flatten community-coded Chinese expressions when prompted in production-style advisory queries.
 
 **Headline finding** (validated across 4 frontier models — GPT-5.1, Claude Sonnet 4.6, Qwen 3.6 Plus, DeepSeek Chat):
 
@@ -76,10 +76,6 @@ Proceedings of ACL 2023 (Demo Track), 127–135.
 ```
 
 The concept-extraction schema in `metapro_extended_extractor.py` extends MetaPro's source → target framework with two register-sensitive fields (`community_register`, `predicted_failure_mode`).
-
-## Contact
-
-Jayde · `XINYING004@e.ntu.edu.sg` · Research with Prof. Erik Cambria (SenticNet, NTU CCDS) and Dr. Rui Mao.
 
 ## License
 
