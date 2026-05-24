@@ -13,7 +13,7 @@ Validated across 4 frontier models — GPT-5.1, Claude Sonnet 4.6, Qwen 3.6 Plus
    Claude flattens hardest on emotion-suppression registers (−26 pp on 「一切都是淡淡的」, refusing to engage and redirecting to clarifying questions). Qwen flattens hardest on cross-lingual memes (−20 pp on 「what the dog doin'」, literalizing the scenario into a xylitol-toxicity warning). DeepSeek is the most robust; GPT is neutral. Each model has a specific failure surface — which means targeted finetune sets need to look different per model.
 
 3. **21% of production-context queries flatten — zero caught by standard benchmarks.**
-   Of 24 (meme × model) cells in production mode, 5 cross the flatten threshold (Δ ≤ −0.05 vs same model's direct mode). These outputs would pass MMLU-style correctness checks, reference-similarity scoring, and thumbs-down filtering — they are factually defensible and conversationally polite. They simply abandon the community register.
+   Of 24 (meme × model) cells in production mode, 5 cross the flatten threshold (Δ < −0.05, strict inequality — the boundary value Δ = −0.050 is not counted). These outputs would pass MMLU-style correctness checks, reference-similarity scoring, and thumbs-down filtering — they are factually defensible and conversationally polite. They simply abandon the community register.
 
 See `docs/bad_cases.md` for per-case operational specs (failure type, likely cause, data needed, annotation spec, preference-pair design, QC risk, eval metric, possible regression) plus a scaling appendix mapping the 6-meme demo workflow to a 10K-candidate production pipeline.
 
