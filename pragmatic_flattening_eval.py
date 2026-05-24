@@ -7,17 +7,14 @@ Pragmatic Flattening Eval — v1 (HISTORICAL, kept for methodology comparison)
     this by adding one anchor per mode. Use v2 for any new analysis; v1 is
     kept in the repo only to document the methodology fix.
 
-Author: Jayde | For: ByteDance Seed AI Data & Safety PM interview, 2026-05
+Stage 1 of the original demo build. Pipeline:
 
-Stage 1 of the demo build. Run this first to produce a JSON file the HTML UI
-will consume. Pipeline:
-
-    corpus (Mengchen's annotated meme dataset)
+    community expression annotation corpus
         ↓
     stratified sample of 6 memes covering different failure modes
         ↓
     for each (scenario, example_context) ask 3 frontier models
-        → Seed API, Qwen API, Claude API
+        → Doubao API, Qwen API, Claude API
         ↓
     embed each model output, compare to canonical meaning embedding
         → quantitative flattening score (cosine similarity)
@@ -89,7 +86,7 @@ def load_demo_slice(path: str) -> pd.DataFrame:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def call_seed(prompt: str) -> str:
-    """ByteDance Seed / Doubao API call.
+    """Doubao API call (Volcengine endpoint).
     Set DOUBAO_API_KEY env var. Endpoint and model id are placeholders —
     swap with the ones you have access to."""
     import requests

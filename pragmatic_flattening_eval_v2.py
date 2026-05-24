@@ -1,9 +1,9 @@
 """
 Pragmatic Flattening Eval — Demo Pipeline v2
 ─────────────────────────────────────────────
-Updated model panel: 2 Chinese frontier (Qwen, DeepSeek) + 2 Western (Claude, GPT).
-Seed/Doubao excluded from public eval to avoid political conflict and to frame 
-this as a frontier-wide methodology rather than a model-specific critique.
+Model panel: 2 Chinese frontier (Qwen, DeepSeek) + 2 Western (Claude, GPT).
+Panel size kept to 4 for scope; additional providers can be added by extending
+the MODELS dict.
 
 Run order:
     1. python pragmatic_flattening_eval.py       → demo_data.json (cross-model outputs)
