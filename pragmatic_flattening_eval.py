@@ -61,9 +61,9 @@ DEMO_MEMES = [
 FAILURE_MODE = {
     "味儿不对":        "Compositional Drift",
     "勒布朗经理":      "Metaphor Literalization",
-    "算了就这样吧":     "Register Loss",
-    "what da dog doin":"Cross-Lingual Drift",
-    "用男人而非爱男人": "Gendered Register Loss",
+    "算了就这样吧":     "Register Flattening",
+    "what da dog doin":"Cross-Lingual Meme Drift",
+    "用男人而非爱男人": "Gendered Pragmatic Loss",
     "一切都是淡淡的":   "Uncertain — Disagreement Demo",
 }
 

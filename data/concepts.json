@@ -3,7 +3,7 @@
     "source_concept": "VIRAL PET BEHAVIOR MEME",
     "target_concept": "COMEDIC REPROACH OF ABSURD UNINVITED ACTION",
     "community_register": "Originates in English-speaking internet meme culture (circa 2021 Doge/Reddit cycles) and was adopted wholesale — untranslated — into Chinese online communities (especially Weibo, Bilibili, Douyin), where the deliberate code-switching into broken English signals ironic detachment, affectionate exasperation, and in-group digital fluency rather than genuine confusion.",
-    "predicted_failure_mode": "Cross-Lingual Drift",
+    "predicted_failure_mode": "Cross-Lingual Meme Drift",
     "failure_rationale": "A flatten-prone model will process the English surface string literally as a grammatically non-standard question about a dog's activity, missing that the untranslated, phonologically 'broken' English is itself the pragmatic payload — a deliberate register marker signaling meme-literacy and comedic distance that evaporates entirely if the phrase is paraphrased, translated, or grammatically corrected.",
     "expression": "what the dog doin'?"
   },
@@ -11,7 +11,7 @@
     "source_concept": "ABANDONING FURTHER REFINEMENT",
     "target_concept": "PRAGMATIC CLOSURE UNDER PERFECTIONISM FATIGUE",
     "community_register": "Used within Chinese professional and academic communities, particularly among knowledge workers and students, where the phrase signals a culturally sanctioned surrender to diminishing returns — carrying a tone of wry, self-aware resignation rather than defeat or laziness, and requiring familiarity with the social norm that over-polishing is both common and implicitly criticized.",
-    "predicted_failure_mode": "Register Loss",
+    "predicted_failure_mode": "Register Flattening",
     "failure_rationale": "A flatten-prone model would read the compositional meaning ('forget it, just like this') as simple giving up or indifference, stripping the pragmatically loaded register of productive self-interruption and the community-validated wisdom of shipping imperfect work, thereby misclassifying the utterance as demotivated withdrawal rather than a deliberate, norm-aligned act of closure.",
     "expression": "算了就这样吧"
   },
@@ -19,7 +19,7 @@
     "source_concept": "SENSORY MUTING (淡)",
     "target_concept": "SUPPRESSED EMOTIONAL COLLAPSE AFTER ROMANTIC LOSS",
     "community_register": "Used predominantly in Chinese online emotional discourse (social media, relationship forums) by young adults processing breakups, where affective flatness is performed as stoic acceptance but signals dissociated numbness rather than genuine calm — requiring familiarity with the cultural script of 'emotional suppression as self-protection'.",
-    "predicted_failure_mode": "Register Loss",
+    "predicted_failure_mode": "Register Flattening",
     "failure_rationale": "A flatten-prone model would read 淡淡的 as benign mildness or contentment (its compositional sense), missing that within this register the word indexes a culturally legible emotional posture of hollow resignation — the affective distance is itself the distress signal, not its negation.",
     "expression": "一切都是淡淡的吧"
   },
@@ -27,7 +27,7 @@
     "source_concept": "SENSORY ODOR DETECTION",
     "target_concept": "PERFORMATIVE HUMILITY MASKING BOASTFULNESS",
     "community_register": "Chinese internet slang communities (especially Weibo, Douyin, Xiaohongshu users) who share ironic social commentary; requires familiarity with the cultural concept of 'pretend modesty' (谦虚表演) and the register of mock-serious callout humor directed at self-congratulatory behavior dressed as understatement.",
-    "predicted_failure_mode": "Register Loss",
+    "predicted_failure_mode": "Register Flattening",
     "failure_rationale": "A flatten-prone model would parse 味儿不对 as a literal olfactory or generic 'something feels off' expression, missing the community-specific ironic register in which the 'wrong smell' indexes the precise social transgression of conspicuous humility — a culturally loaded performative failure that requires shared knowledge of the gap between stated modesty and actual bragging to interpret correctly.",
     "expression": "味儿不对"
   },
@@ -35,7 +35,7 @@
     "source_concept": "INSTRUMENTAL USE OF TOOLS OR RESOURCES",
     "target_concept": "ROMANTIC RELATIONSHIP AS UTILITY CONTRACT",
     "community_register": "Circulates among Chinese-speaking women in feminist-adjacent online communities (e.g., Douban Pinkü, Weibo relationship discourse) who deliberately reject 'lovebrain' (恋爱脑) ideology, requiring familiarity with the ideological opposition between emotional investment and rational self-protection in heterosexual dynamics.",
-    "predicted_failure_mode": "Gendered Register Loss",
+    "predicted_failure_mode": "Gendered Pragmatic Loss",
     "failure_rationale": "A flatten-prone model would parse 用 and 爱 as semantically parallel verbs applied to the same object and miss that the expression performs an ideological act — the speaker is not describing behavior but invoking a community-specific feminist detachment script that reframes men as instruments, a framing whose full pragmatic force depends on the gendered power critique embedded in the register rather than the surface syntax.",
     "expression": "用男人而非爱男人"
   },
@@ -43,7 +43,7 @@
     "source_concept": "NBA GENERAL MANAGER PERSONNEL DECISIONS",
     "target_concept": "INFORMAL GROUP DECISION-MAKING AUTHORITY",
     "community_register": "Chinese internet and sports-fan communities, used in casual group-chat or workplace banter, requiring knowledge of LeBron James's off-court reputation as a franchise-controlling 'player-GM' who orchestrates trades and roster moves — tone is affectionate mockery of someone whose suggestion instantly becomes consensus.",
-    "predicted_failure_mode": "Cross-Lingual Drift",
+    "predicted_failure_mode": "Cross-Lingual Meme Drift",
     "failure_rationale": "A flatten-prone model is likely to parse '勒布朗' as a straightforward athlete reference and '经理' literally as 'manager,' missing that the compound imports a culturally specific Anglophone sports-media narrative (LeBron-as-shadow-GM) that does not survive translation into generic Chinese basketball discourse, thereby collapsing the ironic implication of covert executive power into a bland compliment about leadership.",
     "expression": "勒布朗经理已上线"
   }

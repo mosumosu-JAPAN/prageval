@@ -34,9 +34,9 @@ from anthropic import Anthropic
 FAILURE_MODES = [
     "Compositional Drift",
     "Metaphor Literalization",
-    "Register Loss",
-    "Cross-Lingual Drift",
-    "Gendered Register Loss",
+    "Register Flattening",
+    "Cross-Lingual Meme Drift",
+    "Gendered Pragmatic Loss",
     "Other (specify)",
 ]
 
@@ -57,7 +57,7 @@ OUTPUT SCHEMA (JSON only):
   "source_concept": "<the SOURCE domain in conceptual metaphor terms, short noun phrase, ALL CAPS, e.g. 'NBA TRADE'>",
   "target_concept": "<the TARGET domain being described, short noun phrase, ALL CAPS, e.g. 'WORKPLACE TASK REASSIGNMENT'>",
   "community_register": "<one sentence in English describing the social context in which this expression carries its intended meaning — community, tone, required cultural knowledge>",
-  "predicted_failure_mode": "<choose ONE: 'Compositional Drift' | 'Metaphor Literalization' | 'Register Loss' | 'Cross-Lingual Drift' | 'Gendered Register Loss' | 'Other (specify)'>",
+  "predicted_failure_mode": "<choose ONE: 'Compositional Drift' | 'Metaphor Literalization' | 'Register Flattening' | 'Cross-Lingual Meme Drift' | 'Gendered Pragmatic Loss' | 'Other (specify)'>",
   "failure_rationale": "<one sentence explaining what a flatten-prone model would lose when interpreting this expression>"
 }}
 

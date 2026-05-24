@@ -8,7 +8,7 @@
     "example_response": "what the dog doin'?",
     "qc_judgment": "real",
     "qc_evidence": "“what da dog doin/what the dog doin’?”是英文互联网常见梗句，用于对狗（或人）做出离谱/迷惑行为时故作困惑吐槽，和伸爪抢零食的场景匹配。",
-    "failure_mode": "Cross-Lingual Drift",
+    "failure_mode": "Cross-Lingual Meme Drift",
     "energy_level": "中",
     "gender_bias": "neutral",
     "outputs": {
@@ -98,7 +98,7 @@
     "example_response": "算了就这样吧，交了。",
     "qc_judgment": "real",
     "qc_evidence": "“算了就这样吧”是中文互联网及日常语境里非常常见的放弃继续折腾/停止精修、直接定稿交付的表达，用在“放弃精修让结果落地”场景匹配度高。",
-    "failure_mode": "Register Loss",
+    "failure_mode": "Register Flattening",
     "energy_level": "低",
     "gender_bias": "neutral",
     "outputs": {
@@ -368,7 +368,7 @@
     "example_response": "用男人而非爱男人。",
     "qc_judgment": "real",
     "qc_evidence": "“用男人而非爱男人”更像近年女性主义/反恋爱脑语境里的口号式表达，确实有传播痕迹，但未必算全民级固定梗、更多在特定圈层出现。",
-    "failure_mode": "Gendered Register Loss",
+    "failure_mode": "Gendered Pragmatic Loss",
     "energy_level": "中",
     "gender_bias": "female_oriented",
     "outputs": {
